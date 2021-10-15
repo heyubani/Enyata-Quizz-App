@@ -1,0 +1,165 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+  }
+  .image  {
+    background-image: url('quiz background.webp');
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+  }
+.container {
+  display: flex;
+
+}
+  .login {
+    background-color: #FECE00;
+  }
+  .login-btn  {
+    width: 500px;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #FEDF21;
+  }
+  #form {
+    /* height: 500px;
+    padding: 40px 30px 50px 30px; */
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+  }
+
+  .content{
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .logo {
+    font-size: 50px;
+  }
+  .logo span{
+    color:#FEDF21;
+  }
+  .title  {
+    text-align: center;
+  }
+  .content p  {
+    text-align: center;
+  }
+  .header{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Jura', sans-serif;
+  }
+  .content form{
+    margin: 40px 0;
+  }
+  /* form .field{
+    width: 100%;
+    margin-bottom: 20px;
+  } */
+  form .field.shake{
+    animation: shake 0.3s ease-in-out;
+  }
+  
+  /* form .field .input-area{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+  } */
+  .email, .password{
+    width: 500px;
+    height: 50px;
+    outline: none;
+    padding: 0 25px;
+    font-size: 18px;
+    background: none;
+    border-radius: 5px;
+    border: 0.25px solid #bfbfbf;
+    transition: all 0.2s ease;
+    margin-top: 30px;
+  }
+  .email  {
+    margin-top: 20px;
+  }
+  .checky {
+    display: flex;
+    align-items: center;
+  }
+  .checkbox {
+    margin-right: 8px;
+  }
+  input:checked ~ .checkbox  {
+    background-color: #FEDF21;
+  }
+  .pass-txt{
+    color: #BFBFBF;
+    text-align: left;
+    margin-top: 3px;
+    font-size: 14px;
+    display:flex;
+    justify-content:space-between;
+  }
+  .pass-txt a {
+    color: #bfbfbf !important;;
+  }
+  .content a{
+    color:black;
+    text-decoration: none;
+  }
+
+  form input[type="submit"]{
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    background: #5372F0;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  .sign-txt {
+    /* color:#BFBFBF; */
+    font-size: 15px;
+  }
+  /* .sign-txt a {
+    color:#BFBFBF;
+  } */
+ .what{
+   color: red;
+   /* opacity: 0.2; */
+   font-size: 15px;
+   margin-top:10px;
+ }
+ .whatp {
+   color: red ;
+ }
+ .invalid {
+   border-color:red
+ }
+ .submitError {
+   color: red;
+   margin-top: 10px;
+   font-weight: 700;
+   font-size: 16px;
+ }
